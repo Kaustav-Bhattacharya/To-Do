@@ -90,7 +90,7 @@ form {
 
 .new {
   background: transparent;
-  width:70vw;
+  width: 70vw;
   border: 0;
   color: inherit;
   border-bottom: 1px solid currentColor;
@@ -117,7 +117,6 @@ form {
   font-size: 1.1rem;
   opacity: none;
   max-width: 15rem;
-
 }
 
 .new.task {
@@ -132,29 +131,32 @@ form {
 .todo-list {
   --spacer: 2rem;
 
+  margin-left: 7rem;
+  width: 35vw;
   grid-area: active;
   background: var(--clr-light);
   color: var(--clr-dark);
 }
 
 @media only screen and (max-width: 900px) {
-    body{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .todo-list{
-     width: 70vw;
-    }
-    .all-tasks{
-        margin-bottom: 2em;
-        margin-left: -2rem;
-    }
-    
-    .delete-stuff{
-        margin-left: -0.6rem;
-    }
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .todo-list {
+    width: 70vw;
+    margin-left: 0;
+  }
+  .all-tasks {
+    margin-bottom: 2em;
+    margin-left: -2rem;
+  }
+
+  .delete-stuff {
+    margin-left: -0.6rem;
+  }
 }
 
 .todo-header {
