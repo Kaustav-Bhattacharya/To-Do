@@ -90,6 +90,7 @@ form {
 
 .new {
   background: transparent;
+  width:70vw;
   border: 0;
   color: inherit;
   border-bottom: 1px solid currentColor;
@@ -119,6 +120,7 @@ form {
 
 .new.task {
   margin-bottom: 0;
+  max-width: 70vw;
 }
 
 .active-list {
