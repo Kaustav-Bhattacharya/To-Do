@@ -12,14 +12,15 @@
   
      <div class="all-tasks">
         <h2 class="task-list-title">My list</h2>
-        <ul class="task-list">
-            <li  class="list-name active-list">React</li>
+        <ul class="task-list" data-lists>
+            <!-- <li  class="list-name active-list">React</li>
             <li class="list-name">JavaScript</li>
-            <li class="list-name">Node</li>
+            <li class="list-name">Node</li> -->
         </ul>
-        <form action="">
+        <form action="" data-new-list-form>
             <input type="text"
             class="new list"
+            data-new-list-input
             placeholder="create a new list"
             aria-label="create a new list"/>
             <button class="btn create" aria-label="create a new list">+</button>
@@ -66,9 +67,10 @@
     </div>
     <div class="delete-stuff">
         <button class="btn delete">Clear Completed Tasks</button>
-        <button class="btn delete">Delete List</button>
+        <button class="btn delete" data-delete-list-button>Delete List</button>
     </div>
 </div>
      </div>
+     <script src="index.js"></script>
 </body>
 </html>
